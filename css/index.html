@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CSS</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <a><ion-icon name="home-outline"></ion-icon></a>
+        <a><ion-icon name="diamond-outline"></ion-icon></a>
+      </div>
+      <div class="map">
+        <div class="cards">
+          <div class="navigation-card">
+            <a
+              ><ion-icon class="back-icon" name="arrow-back-outline"></ion-icon>
+            </a>
+            <p>Back</p>
+          </div>
+          <div class="top-card">
+            <div class="profile">
+              <div class="image-data">
+                <img class="user-photo" src="user-photo.jpg" />
+                <div class="user-detail">
+                  <p class="user-name">Sarthak Tyagi</p>
+                  <p class="user-title">
+                    <ion-icon class="user-title-icon" name="ellipse"></ion-icon
+                    >Software Engineer
+                  </p>
+                </div>
+              </div>
+              <button class="contact-user">
+                <ion-icon
+                  class="contact-icon"
+                  name="chatbox-ellipses-outline"
+                ></ion-icon>
+                Contact
+              </button>
+            </div>
+            <div class="extra-info">
+              <div class="info">
+                <p class="info-heading">Trip ID</p>
+                <p class="info-data">453672</p>
+              </div>
+              <div class="info">
+                <p class="info-heading">Vehicle number</p>
+                <p class="info-data">DL 5CP 1234</p>
+              </div>
+              <div class="info right-line">
+                <p class="info-heading">Vehicle size</p>
+                <p class="info-data">19 Ft</p>
+              </div>
+              <div class="info">
+                <p class="info-heading">Driver's rate</p>
+                <p class="info-data">4.6</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bottom-card">
+            <div class="header">
+              <div class="header-info">
+                <a class="header-links">General info</a>
+              </div>
+              <div class="header-info">
+                <a class="header-links highlight">Tracking</a>
+              </div>
+              <div class="header-info">
+                <a class="header-links">Vendor</a>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="dt-cards">
+                <div class="duration-card">
+                  <p class="dt-heading">Distance</p>
+                  <p class="dt-data">340 KM</p>
+                </div>
+                <div class="time-card">
+                  <p class="dt-heading">Time</p>
+                  <p class="dt-data">6 hours</p>
+                </div>
+                <div class="delayed-card">
+                  <p class="dt-heading">Delayed</p>
+                  <p class="dt-data">No</p>
+                </div>
+              </div>
+              <div class="timeline-overview">
+                <div class="timeline-heading">
+                  <p class="timeline-name">Timeline</p>
+                  <p class="timeline-updated">Updated 5 minutes ago</p>
+                </div>
+                <button class="contact-user gray-color">
+                  <ion-icon class="back-icon" name="refresh-outline"></ion-icon>
+                  Refresh
+                </button>
+              </div>
+              <div class="timeline">
+                <div class="container">
+                  <ul class="sessions">
+                    <li class="starting-location">
+                      <div class="time">09:00 AM</div>
+                      <div class="timeline-details">
+                        <p class="timeline-location">BH4</p>
+                        <p class="timeline-status">ATD : 08 jun 12:00</p>
+                      </div>
+                    </li>
+                    <li class="in-transit">
+                      <div class="time">08 jun 17:00</div>
+                      <div class="timeline-details">
+                        <p class="timeline-location">GGH</p>
+                        <p class="timeline-status">ETA : 08 jun 17:00</p>
+                        <p class="timeline-status">ATA : 08 jun 16:00</p>
+                        <p class="timeline-status">ETD : 08 jun 10:00</p>
+                        <p class="timeline-status">ATD : 08 jun 10:30</p>
+                      </div>
+                    </li>
+                    <li class="in-transit">
+                      <div class="time">09 jun 17:00</div>
+                      <div class="timeline-details">
+                        <p class="timeline-location">BIH</p>
+                        <p class="timeline-status">ETA : 09 jun 17:00</p>
+                        <p class="timeline-status">ATA : 09 jun 16:00</p>
+                        <p class="timeline-status">ETD : 09 jun 10:00</p>
+                        <p class="timeline-status">ATD : 09 jun 10:30</p>
+                      </div>
+                    </li>
+                    <li class="trip-complete">
+                      <div class="time">10 jun 17:00</div>
+                      <div class="timeline-details">
+                        <p class="timeline-location">DEH</p>
+                        <p class="timeline-status">ETA : 10 jun 17:00</p>
+                        <p class="timeline-status">ATA : 10 jun 16:00</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
